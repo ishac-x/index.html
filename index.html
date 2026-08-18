@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <style>
+    :root {
+      --bg: #fdf2f8;
+      --card: #ffffff;
+      --accent: #ec4899;
+      --accent-dark: #be185d;
+      --text: #831843;
+      --border: #fbcfe8;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 2rem 1rem;
+    }
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      background: var(--card);
+      padding: 2rem;
+      border-radius: 12px;
+      border: 2px solid;
+    }
+    header {
+      text-align: center;
+      padding-bottom: 1.5rem;
+      border-bottom: 2px solid;
+    }
+    h1 {
+      color: var(--accent-dark);
+      font-size: 2.2rem;
+    }
+    .subtitle {
+      color: var(--accent);
+      font-weight: 600;
+      font-size: 1rem;
+      margin-top: 0.2rem;
+    }
+    .contact {
+      margin-top: 0.8rem;
+      font-size: 0.95rem;
+      color: var(--text);
+    }
+    .contact a {
+      color: var(--accent-dark);
+      text-decoration: none;
+    }
+    .section-title {
+      color: var(--accent-dark);
+      margin: 1.5rem 0 0.8rem;
+      font-size: 1.3rem;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 0.3rem;
+    }
+    ul {
+      list-style-type: square;
+      padding-left: 1.2rem;
+    }
+
+    li {
+      margin-bottom: 0.4rem;
+    }
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .skill-tag {
+      background: var(--bg);
+      color: var(--accent-dark);
+      padding: 0.4rem 0.8rem;
+      border-radius: 20px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      border: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Isha C</h1>
+      <p class="subtitle">2nd Year Computer Engineering Student</p>
+      <div class="contact">
+        Email: <a href="mailto:isha.chothani25@sakec.ac.in">isha.chothani25@sakec.ac.in</a> | 
+        GitHub: <a href="https://github.com/ishac-x" target="_blank">github.com/ishac-x</a>
+      </div>
+    </header>
+    <main>
+      <div class="section-title">About Me</div>
+      <p>An enthusiastic second-year engineering student passionate about technology and web development. Eager to learn, improve coding skills, and build real-world software projects.</p>
+      <div class="section-title">Technical Skills</div>
+      <div class="skills-list">
+        <span class="skill-tag">C Programming</span>
+        <span class="skill-tag">Web Development (HTML, CSS, JS)</span>
+        <span class="skill-tag">Object-Oriented Programming (Java)</span>
+        <span class="skill-tag">Data Structures</span>
+      </div>
+      <div class="section-title">Education</div>
+      <p><strong>Bachelor of Engineering (B.E. / B.Tech)</strong></p>
+      <p>Currently in 2nd Year</p>
+      <p><em>Relevant Coursework:</em> Data Structures, Object-Oriented Programming, C Language Fundamentals.</p>
+      <div class="section-title">Learning Goals</div>
+      <ul>
+        <li>Deepening knowledge in Data Structures and Algorithms.</li>
+        <li>Building interactive web applications.</li>
+        <li>Practicing collaborative coding with Git & GitHub.</li>
+      </ul>
+    </main>
+  </div>
+</body>
+</html>
